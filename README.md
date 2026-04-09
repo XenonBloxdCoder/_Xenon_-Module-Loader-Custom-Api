@@ -6,7 +6,7 @@ A multi-phase module loading system for Bloxd.io worlds. Modules are stored in C
 
 ## Writing a Module
 
-A module is JavaScript stored in a Code Block at one of the 22 reserved slots. The loader reads, compiles, and executes it automatically. You just write handler functions and top-level variables — the loader handles the rest.
+A module is JavaScript stored in a Code Block. The loader reads, compiles, and executes it automatically. You just write handler functions and top-level variables — the loader handles the rest.
 
 ```js
 var COINS = {};
